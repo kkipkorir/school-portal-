@@ -1,7 +1,38 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     background-color: aliceblue;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
+header{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #800020;
+    color:#fff;
+    width: 100%;
+    margin: 0;
+}
+.title-logo{
+    width:25%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left:10px;
+}
+.nav-comp{
+    width:75%;
+    margin: auto 0;
+    margin-left:20px;
+}
+nav{
+    width:100%;
+}
+nav >ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 h1,h2,img,.direction{
     text-align: center;
 }
@@ -15,16 +46,18 @@ h1,h2,img,.direction{
 }
 .loginport:hover{
     box-shadow: 0 0 5px 5px rgba(47, 47, 58,50%);
+    
 }
 .loginport button{
     background-color: #800020;
     color: wheat;
 }
 a{
-    color: #800020;
+    color: #fff
 }
 a:hover,a:visited,button:hover,button.visited{
     color: #b66b7d;
+    cursor: pointer;
 }
 
 .school-logo{
